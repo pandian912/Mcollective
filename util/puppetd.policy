@@ -1,0 +1,3 @@
+policy default deny
+allow    group=devs status enable disable   country=uk     apache
+allow    group=ops   *                       *              *
